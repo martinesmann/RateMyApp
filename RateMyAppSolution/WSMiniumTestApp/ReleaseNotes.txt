@@ -1,0 +1,27 @@
+how to use the Control
+
+Windows Store - Code snippet:
+
+		protected override void OnLaunched(LaunchActivatedEventArgs e)
+        {
+			.
+			.
+			.
+			.
+			.
+			.
+            // Ensure the current window is active
+            Window.Current.Activate();
+        
+			RateMyApp.WS.Core.RateMyAppControl control = new RateMyApp.WS.Core.RateMyAppControl();
+            control.Start("8fb5ebf0-3ba8-4d68-9f2a-7154d8c0ac6a_70rq6xpyaxwzy");
+		}
+
+Windows Phone - Code snippet:
+
+		private void Application_Launching(object sender, LaunchingEventArgs e)
+        {
+            RateMyApp.WP.Core.RateMyAppControl control = new RateMyApp.WP.Core.RateMyAppControl();
+            control.Start();
+        }
+

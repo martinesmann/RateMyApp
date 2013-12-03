@@ -1,0 +1,14 @@
+﻿<Application
+    x:Class="RateMyApp.WS.Test.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RateMyApp.WS.Test"
+    xmlns:localData="using:RateMyApp.WS.Test.Data">
+
+    <Application.Resources>
+        <!-- Application-specific resources -->
+
+        <x:String x:Key="AppName">RateMyApp.WS.Test</x:String>
+
+    </Application.Resources>
+</Application>

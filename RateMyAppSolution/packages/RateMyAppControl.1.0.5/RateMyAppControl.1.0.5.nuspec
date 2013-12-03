@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RateMyAppControl</id>
+    <version>1.0.5</version>
+    <title>RateMyApp</title>
+    <authors>martin esmann</authors>
+    <owners>martin esmann</owners>
+    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Rate My Application Control is an easy to use app reminder control for windows phone and windows store.</description>
+    <releaseNotes>Usage Windows Store:
+RateMyApp.WS.Core.RateMyAppControl control = new RateMyApp.WS.Core.RateMyAppControl();
+            control.Start("8fb5eb............0rq6xpyaxwzy");
+
+
+Usage Windows Phone:
+
+private void Application_Launching(object sender, LaunchingEventArgs e)
+        {
+            RateMyApp.WP.Core.RateMyAppControl control = new RateMyApp.WP.Core.RateMyAppControl();
+            control.Start();
+        }</releaseNotes>
+    <copyright>martin esmann</copyright>
+    <language>en-US</language>
+  </metadata>
+</package>
